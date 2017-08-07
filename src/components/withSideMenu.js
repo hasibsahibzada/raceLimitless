@@ -1,11 +1,5 @@
 import React, { Component } from 'react';
-import {
-    StyleSheet,
-    Text,
-    View,
-    Image,
-    TouchableOpacity,
-} from 'react-native';
+import {Text, View, Image, TouchableOpacity } from 'react-native';
 import SideMenu from 'react-native-side-menu';
 import Menu from './Menu';
 
@@ -40,7 +34,6 @@ const withSideMenu = (WrappedComponent) => {
                 selectedItem: item,
             });
         }
-
 
         render() {
             const menu = <Menu onItemSelected={this.onMenuItemSelected} />;

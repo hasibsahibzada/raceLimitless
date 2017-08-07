@@ -1,12 +1,6 @@
-import React, { Component } from 'react';
-import {
-    StyleSheet,
-    Text,
-    View,
-    Image,
-} from 'react-native';
+import { StyleSheet } from 'react-native';
 
-const styles = StyleSheet.create({
+export const styles = StyleSheet.create({
     button: {
         position: 'absolute',
         top: 20,
@@ -34,22 +28,3 @@ const styles = StyleSheet.create({
         marginBottom: 5,
     },
 });
-
-class Profile extends Component {
-    constructor(props) {
-        super(props);
-
-    }
-
-    render() {
-        return (
-            <View style={styles.container}>
-                <Text style={styles.welcome}>
-                    Profile
-                </Text>
-            </View>
-        );
-    }
-}
-
-export default Profile;
