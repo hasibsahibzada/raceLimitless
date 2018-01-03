@@ -23,6 +23,7 @@
     "prop-types": "^15.5.10",
     "react": "16.0.0-alpha.12",
     "react-native": "^0.45.1",
+    "react-native-router-flux": "^4.0.0-beta.18",
     "react-native-side-menu": "^1.0.2",
     "react-navigation": "^1.0.0-beta.11"
   }
