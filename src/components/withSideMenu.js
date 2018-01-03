@@ -27,7 +27,9 @@ const withSideMenu = (WrappedComponent) => {
         }
 
         onMenuItemSelected(item) {
-            const { navigate } = this.props.navigation;
+            const { navigation } = this.props;
+            const { navigate } = navigation;
+
             navigate(item);
             this.setState({
                 isOpen: false,
