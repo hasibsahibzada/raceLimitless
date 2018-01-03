@@ -18,7 +18,7 @@ class Home extends Component {
         return (
             <View style={styles.container}>
                 <Text style={styles.welcome}>
-                    my Homes
+                    my Home
                 </Text>
             </View>
         );
